@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map and Arry</title>
+</head>
+<body>
+    <h1>Array</h1>
+    <p id="demo"></p>
+    <script>
+        var number=[10,26,62,35,53];
+        function myfunction(num){
+            return num*10;
+        }
+        var newarray =number.map(myfunction);
+        document.getElementById("demo").innerHTML=newarray;
+    </script>
+</body>
+</html>
